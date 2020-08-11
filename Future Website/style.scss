@@ -1,18 +1,22 @@
+
+
 body {
     margin: 0;
     background-color: silver;
     font-family: 'Roboto', sans-serif;
-    
+    overflow-x: hidden;
 }
 
 
 #topnav {
     position: sticky;
+    top: 0px;
     display: flex;
     justify-content: space-around;
     background-color: rgb(102, 102, 102);
     padding: 0px 20px;
-
+    width: 100%;
+    
     a{
         text-decoration: none;
     }
@@ -46,4 +50,14 @@ body {
 
         }
     }
+}
+
+#content {
+    margin: 20px;
+    min-width: 600px;
+    
+}
+
+img {
+    
 }

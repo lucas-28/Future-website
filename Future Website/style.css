@@ -1,14 +1,17 @@
 body {
   margin: 0;
   background-color: silver;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden; }
 
 #topnav {
   position: sticky;
+  top: 0px;
   display: flex;
   justify-content: space-around;
   background-color: #666666;
-  padding: 0px 20px; }
+  padding: 0px 20px;
+  width: 100%; }
   #topnav a {
     text-decoration: none; }
   #topnav h1 {
@@ -29,5 +32,9 @@ body {
         opacity: .8; }
         #topnav #menu li a:hover {
           color: white; }
+
+#content {
+  margin: 20px;
+  min-width: 600px; }
 
 /*# sourceMappingURL=style.css.map */
