@@ -1,30 +1,76 @@
-<head>
-    <title>The Future</title>
-    <link rel="icon" href="rocket.png">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-</head>
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <!doctype html>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>The Future</title>
+        <link rel="icon" href="rocket.png">
+        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        
+    </head>
 
 
 
-<body>
-    <div id="topnav">
-        <a href="index.html"><h1>The Future</h1></a>
-        <div id="menu">
-            <li><a href="tech.html"><span>Tech</span></a></li>
-            <li><a href="health.html"><span>Healthcare</span></a></li>
-            <li><a href="jobs.html"><span>Jobs</span></a></li>
-            <li><a href="culture.html"><span>Culture</span></a></li>
-            <li><a href="society.html"><span>Society</span></a></li>
+    <body>
+        <div id="includedContent"></div>
+        
+        <div id="topnav">
+            <a href="index.html"><h1>Futureland</h1></a>
+            <div id="menu">
+                <li><a href="tech.html"><span>Tech</span></a></li>
+                <li><a href="health.html"><span>Healthcare</span></a></li>
+                <li><a href="jobs.html"><span>Jobs</span></a></li>
+                <li><a href="culture.html"><span>Culture</span></a></li>
+                <li><a href="society.html"><span>Society</span></a></li>
+            </div>
         </div>
-    </div>
-    <div id="content">
-        <img src="multiple-rocket-launch.webp" alt="">
-    </div>
+        <div id="content-box">
+            <div id="content">
+                <img src="multiple-rocket-launch.webp" alt="">
+                <h2 id="message">You are standing on Earth with an apple and an orange.</h2>
+                <h2 id="next">What do you do next?</h2>
+                <ul id="choices">
+                    <li><button id="b1">Eat an Apple</button></li>
+                    <li><button id="b2">Eat an Orange</button></li>
+                </ul>
+                <h2>Inventory</h2>
+                <div id="inventory">
+                    <div id="misc">
+                        <h3>Misc</h3>
+                    </div>
+                    <div id="tools">
+                        <h3>tools</h3>
+                    </div>
+                    <div id="clothing">
+                        <h3>clothing</h3>
+                    </div>
+                    <div id="food">
+                        <h3>food</h3>
+                    </div>
+                    <div id="aid">
+                        <h3>aid</h3>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
 
 
 
 
-
-</body>
-    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script> 
+        
+        $("#includedContent").load("culture.html"); 
+        </script> 
+        <script src="script.js"></script>
+    </body>
+</html>        
